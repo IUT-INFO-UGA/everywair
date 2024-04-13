@@ -226,3 +226,45 @@ progress {
 .argumentContainer > div:nth-child(6) {
   grid-area: 4 / 1 / 5 / 3;
 }
+
+/* ----------------- benefits ----------------- */
+.study {
+  font-size: 4em;
+  margin: 4vh 20vw;
+  padding: 10vh 2vw;
+  text-align: center;
+  background-color: var(--bacround);
+  border-radius: var(--radus);
+  border: darkgray solid 2px;
+}
+
+.studyArgument {
+  font-size: 2em;
+}
+
+.studyArgument > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15vw;
+  margin-bottom: 4vh;
+  gap: 3vw;
+}
+
+.studyArgument > div > img {
+  height: 30vh;
+  width: 40vh;
+  object-fit: cover;
+}
+
+.studyArgument > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.studyArgument > div:nth-child(1) > div {
+  text-align: left;
+}
+
+.studyArgument > div:nth-child(2) > div {
+  text-align: right;
+}
