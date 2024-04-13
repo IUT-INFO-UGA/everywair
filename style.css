@@ -268,3 +268,33 @@ progress {
 .studyArgument > div:nth-child(2) > div {
   text-align: right;
 }
+
+/* ----------------- Contact ----------------- */
+
+.contat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  height: 80vh;
+}
+
+.contat a {
+  text-decoration: underline;
+}
+
+.contat div {
+  background-color: var(--bacround);
+  border-radius: var(--radus);
+  border: darkgray solid 2px;
+  padding: 0 2vw;
+  width: 20vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contat div a {
+  font-size: 3vh;
+}
