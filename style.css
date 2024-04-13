@@ -149,3 +149,80 @@ progress {
 .bigBreathSelect > div:nth-child(2) {
   gap: 2vh;
 }
+
+/* ----------------- our mission ----------------- */
+
+.missionStats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4vh;
+}
+
+.missionStats div {
+  border: darkgray solid 2px;
+  background-color: var(--bacround);
+}
+
+.missionStats h2 {
+  font-size: 3.5em;
+  font-weight: 300;
+}
+.missionStats h3 {
+  font-weight: 300;
+  font-size: 2.5em;
+}
+.missionStats h4 {
+  font-weight: 300;
+  font-size: 1.5em;
+}
+.missionStats h1 {
+  font-weight: bold;
+  font-size: 4em;
+}
+.missionStats > div:nth-child(2) {
+  font-weight: bold;
+  font-size: 5em;
+  width: 20vw;
+  text-align: center;
+}
+
+.argument > h1 {
+  font-size: xx-large;
+  font-weight: 300;
+  text-align: center;
+  margin: 4vh 0;
+}
+
+.argumentContainer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 2vh;
+  padding: 0 30vh;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 4vh;
+}
+.argumentContainer > div {
+  background-color: var(--bacround);
+  border-radius: var(--radus);
+}
+
+.argumentContainer > div:nth-child(1) {
+  grid-area: 1 / 1 / 2 / 3;
+}
+.argumentContainer > div:nth-child(2) {
+  grid-area: 3 / 3 / 4 / 5;
+}
+.argumentContainer > div:nth-child(3) {
+  grid-area: 2 / 5 / 3 / 7;
+}
+.argumentContainer > div:nth-child(4) {
+  grid-area: 4 / 6 / 5 / 8;
+}
+.argumentContainer > div:nth-child(5) {
+  grid-area: 5 / 4 / 6 / 6;
+}
+.argumentContainer > div:nth-child(6) {
+  grid-area: 4 / 1 / 5 / 3;
+}
